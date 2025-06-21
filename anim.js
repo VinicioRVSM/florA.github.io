@@ -4,33 +4,27 @@ var lyrics = document.querySelector("#lyrics");
 
 //Array de objetos que contiene cada línea y su tiempo de aparición en segundos
 var lyricsData = [
-  { text: "Tus ojos color café, dulces y profundos", time: 15 },
-  { text: "reflejan secretos, ternura y mundos.", time: 18 },
-  { text: "Brillan tan suave, tan llenos de luz,", time: 27 },
-  { text: "que el cielo los mira y baja su cruz.", time: 32 },
-  { text: "Sonrisa encantadora, risa de estrella,", time: 33 },
-  { text: "la luna se asoma solo por verla.", time: 41 },
-  { text: "Tiene en sus labios color carmesí,", time: 47 },
-  { text: "el arte del fuego… y el perfume sutil.", time: 54 },
-  { text: "Camina despacio, dejando alegría,", time: 59 },
-  { text: "su esencia perdura más que el día.", time: 67 },
-  { text: "Angy, un suspiro, un verso, un pincel…", time: 72 },
-  { text: "belleza que brilla, como un laurel.", time: 78 },
-  { text: "I only want to live in clouds", time: 83 },
-  { text: "Where I'm now? I don't know why", time: 91 },
-  { text: "Nice butterflies in my hands", time: 97 },
-  { text: "Too much light for twilight", time: 104 },
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+  { text: "No hay invierno que te apague", time: 10 },
+  { text: "ni verano que te agobie", time: 14 },
+  { text: "tu belleza no se esconde", time: 18 },
+  { text: "ni en los días en que llore.", time: 22 },
+
+  { text: "Tus ojos son luna clara", time: 26 },
+  { text: "que iluminan sin pedir", time: 30 },
+  { text: "y tu sonrisa es la calma", time: 34 },
+  { text: "que me enseña a sonreír", time: 38 },
+
+  { text: "Tienes el alma de flor", time: 42 },
+  { text: "de esas que florecen solas", time: 46 },
+  { text: "aunque el viento las sacuda", time: 50 },
+  { text: "y la vida no sea alfombra", time: 54 },
+
+  { text: "Si a veces el ánimo cae", time: 58 },
+  { text: "y las dudas se hacen eco", time: 62 },
+  { text: "recuerda que tú eres arte", time: 66 },
+  { text: "y lo hermoso vive dentro", time: 70 },
+
+  { text: "SE TE KIERE ANGY", time: 74 },
 ];
 
 // Animar las letras
